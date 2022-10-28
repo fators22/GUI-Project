@@ -1,3 +1,5 @@
+package GUI.SunAnimation;
+
 import javax.swing.*;
 import java.awt.*;
 
