@@ -61,13 +61,14 @@ public class ColorText{
 
   }
   public void changeText( ColorButton b){
-       label1.setFont(new Font("Monospaced", Font.PLAIN, 12));           //change the color of all labels.
+       //set font color to  button color 
        label1.setForeground(b.getColor());
-       label2.setForeground(b.getColor());
-       label3.setForeground(b.getColor());
-       label4.setForeground(b.getColor());
-         
+
               
    } 
   }
   
+label2.setForeground(b.getColor());
+       label3.setForeground(b.getColor());
+       label4.setForeground(b.getColor());
+         

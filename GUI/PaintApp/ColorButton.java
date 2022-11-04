@@ -7,13 +7,16 @@ import java.util.Random;
 
 
 public class ColorButton extends JButton{
-
   
-   private String name;
-   private Color color;
+   //class variables
    public static Random rand=new Random();
 
-  
+  //instance variable
+   private String name;
+   private Color color;
+
+
+  //Constructor
    public ColorButton(){
      this.name="Try me";
      this.color= new Color( rand.nextInt(255),rand.nextInt(255), rand.nextInt(255));
