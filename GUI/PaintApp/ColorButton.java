@@ -9,8 +9,8 @@ import java.util.Random;
 public class ColorButton extends JButton{
 
   
-   String name;
-   Color color;
+   private String name;
+   private Color color;
    public static Random rand=new Random();
 
   
@@ -18,9 +18,9 @@ public class ColorButton extends JButton{
      this.name="Try me";
      this.color= new Color( rand.nextInt(255),rand.nextInt(255), rand.nextInt(255));
      this.setBackground(this.color);
-
      this.setText(this.name);
    }
+
    public Color getColor(){
      return this.color;
    }
