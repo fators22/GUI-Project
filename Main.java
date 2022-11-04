@@ -1,9 +1,13 @@
-package GUI;
-import GUI.SunAnimation.*;
+
+import GUI.PaintApp.ColorText;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
 
 class Main {
   public static void main(String[] args) {
-    Paint sun = new Paint();
-    sun.draw();
+    new ColorText();
+   
   }
 }
