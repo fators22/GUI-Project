@@ -63,12 +63,12 @@ public class ColorText{
   public void changeText( ColorButton b){
        //set font color to  button color 
        label1.setForeground(b.getColor());
-
-              
+       label2.setForeground(b.getColor());
+       label3.setForeground(b.getColor());
+       label4.setForeground(b.getColor());
+         
    } 
   }
   
-label2.setForeground(b.getColor());
-       label3.setForeground(b.getColor());
-       label4.setForeground(b.getColor());
+
          
